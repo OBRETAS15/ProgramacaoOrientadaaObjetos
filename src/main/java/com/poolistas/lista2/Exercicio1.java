@@ -4,11 +4,10 @@ import java.util.Scanner;
 
 public class Exercicio1 {
     public static void resolucao2(){
-        //Código de resolução: Exercicio1.resolucao2();
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
-        double numero = sc.nextDouble();
+        double numero = scanner1.nextDouble();
 
         if(numero%2==0){
             System.out.println("Número par");
@@ -18,7 +17,7 @@ public class Exercicio1 {
         }
 
 
-        sc.close();
+        scanner1.close();
     }
 
 }
