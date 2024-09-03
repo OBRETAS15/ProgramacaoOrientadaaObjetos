@@ -10,7 +10,7 @@ public class Exercicio7 {
         double numero1 = scanner1.nextInt();
 
         System.out.println("Digite outro número: ");
-        double numero2 = scanner1
+        double numero2 = scanner1.nextInt();
         if(numero1%numero2 == 0){
             System.out.println("Número "+numero1+" é divisivel por "+numero2);
         }
