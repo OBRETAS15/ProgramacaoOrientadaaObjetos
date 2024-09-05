@@ -18,7 +18,7 @@ public class ListasexerciciosApplication3 {
 	public static void main(String[] args) {
 		SpringApplication.run(ListasexerciciosApplication.class, args);
 
-		Exercicio6.resolucao();
+		Exercicio3.resolucao();
 	}
 
 }

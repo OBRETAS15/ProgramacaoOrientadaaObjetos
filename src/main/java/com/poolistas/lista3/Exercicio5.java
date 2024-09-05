@@ -45,6 +45,8 @@ public static void resolucao() {
         System.out.println("Login realizado com sucesso.");
         System.out.println("----------------------------");
         loginCorreto = true;
+        break;
+        
         } else if (!cad_login.equals(login)){
         System.out.println("\n--------------------------------------------------------");
         System.out.println("O login informado não esta correto, tente novamente.");
