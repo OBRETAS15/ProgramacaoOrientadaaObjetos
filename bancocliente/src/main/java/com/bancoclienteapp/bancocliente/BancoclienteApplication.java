@@ -1,15 +1,15 @@
-package com.poolistas.listasexercicios;
+package com.bancoclienteapp.bancocliente;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ListasexerciciosApplication {
+public class BancoclienteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ListasexerciciosApplication.class, args);
+		SpringApplication.run(BancoclienteApplication.class, args);
 
-		//Exercicio.resolucao2();
+		
 	}
 
 }
