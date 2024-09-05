@@ -7,6 +7,7 @@ import com.poolistas.lista3.Exercicio1;
 import com.poolistas.lista3.Exercicio2;
 import com.poolistas.lista3.Exercicio3;
 import com.poolistas.lista3.Exercicio4;
+import com.poolistas.lista3.Exercicio5;
 
 @SpringBootApplication
 public class ListasexerciciosApplication3 {
@@ -14,7 +15,7 @@ public class ListasexerciciosApplication3 {
 	public static void main(String[] args) {
 		SpringApplication.run(ListasexerciciosApplication.class, args);
 
-		Exercicio4.resolucao();
+		Exercicio5.resolucao();
 	}
 
 }
