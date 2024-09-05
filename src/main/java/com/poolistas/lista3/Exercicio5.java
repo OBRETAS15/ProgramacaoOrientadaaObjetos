@@ -8,18 +8,18 @@ public class Exercicio5 {
 
 public static void resolucao() {
 
-        Scanner scanner1 = new Scanner(System.in);
+        Scanner Scanner1 = new Scanner(System.in);
         Console console = System.console(); //item para ler sem exibir os caracteres.
         String cad_login, cad_senha;
         int chances = 3;
 
         System.out.println("Para realizar um cadastro preencha os campos a seguir.");
         System.out.print("Digite um usuário: ");
-        cad_login = scanner1.nextLine();
+        cad_login = Scanner1.nextLine();
         System.out.print("Digite uma senha: ");
         //cad_senha = leia.nextLine();
         //-----------teste comando senha oculta-------------
-        cad_senha = scanner1.nextLine();
+        cad_senha = Scanner1.nextLine();
         //----------fim comando senha oculta----------------  
         System.out.println("-------------------------------");
         System.out.println("Cadastro realizado com sucesso!");
@@ -33,7 +33,7 @@ public static void resolucao() {
         String login, senha;
 
         System.out.print("\nDigite o seu usuário: ");
-        login = scanner1.nextLine();
+        login = Scanner1.nextLine();
         System.out.print("Digite sua senha: ");
         //senha = leia.nextLine();
         //-----------teste comando senha oculta-------------

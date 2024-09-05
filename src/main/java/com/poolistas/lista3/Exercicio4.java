@@ -8,12 +8,12 @@ public class Exercicio4 {
         int numero;
         int numeroPalpite;
 
-        Scanner scanner1 = new Scanner(System.in);
-        numero = scanner1.nextInt();
+        Scanner Scanner1 = new Scanner(System.in);
+        numero = Scanner1.nextInt();
 
         do{
             System.out.println("Tente adivinhar o número digitado: ");
-            numeroPalpite = scanner1.nextInt();
+            numeroPalpite = Scanner1.nextInt();
 
             if (numeroPalpite == numero){
                 System.out.println("Parabéns! Você acertou.");

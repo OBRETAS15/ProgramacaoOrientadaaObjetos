@@ -6,8 +6,8 @@ public class Exercicio6 {
     public static void resolucao(){
 
         System.out.println("Digite a altura da pirâmide: ");
-        Scanner scanner1 = new Scanner(System.in);
-        int altura = scanner1.nextInt();
+        Scanner Scanner1 = new Scanner(System.in);
+        int altura = Scanner1.nextInt();
         System.out.print("\n");
         
         for (int i = 0; i < altura; i++) {

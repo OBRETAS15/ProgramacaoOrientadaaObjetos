@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Exercicio2 {
 
 public static void resolucao(){
-    Scanner scanner1 = new Scanner(System.in);
+    Scanner Scanner1 = new Scanner(System.in);
 
     int numero;
 
     System.out.print("Digite um número (entre 1 e 9) para fazermos a tabuada: ");
-    numero= scanner1.nextInt();
+    numero= Scanner1.nextInt();
 
     if((numero>= 10) ||(numero <=0) ){
     System.out.print("Erro. Digite um número válido para realizarmos a tabuada ");
@@ -23,6 +23,6 @@ public static void resolucao(){
     System.out.println("Programa encerrado");
     }
     
-    scanner1.close();
+    Scanner1.close();
 }
 }

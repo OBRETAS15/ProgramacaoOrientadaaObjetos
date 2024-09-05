@@ -6,16 +6,16 @@ public class Exercicio3 {
 
 public static void resolucao(){
 
-Scanner scanner1 = new Scanner(System.in);
+Scanner Scanner1 = new Scanner(System.in);
 
 int numero1 ;
 int numero2;
 
 System.out.print("Digite o primeiro número:");
-numero1= scanner1.nextInt();
+numero1= Scanner1.nextInt();
 
 System.out.print("Digite o segundo número:");
-numero2= scanner1.nextInt();
+numero2= Scanner1.nextInt();
 
 int maior =0;
 int menor =0; 
@@ -39,7 +39,7 @@ for (int i= menor ; i <= maior; i ++) {
         }
         menor = menor + 1;
     } 
-scanner1.close();
+Scanner1.close();
 
 }
 
