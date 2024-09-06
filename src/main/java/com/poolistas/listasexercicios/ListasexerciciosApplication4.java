@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.poolistas.lista4.Exercicio1;
 import com.poolistas.lista4.Exercicio2;
+import com.poolistas.lista4.Exercicio3;
 
 
 @SpringBootApplication
@@ -13,7 +14,7 @@ public class ListasexerciciosApplication4 {
 	public static void main(String[] args) {
 		SpringApplication.run(ListasexerciciosApplication.class, args);
 
-		Exercicio2.resolucao();
+		Exercicio3.resolucao();
 	}
 
 }
