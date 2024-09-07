@@ -10,6 +10,7 @@ import com.poolistas.lista4.Exercicio4;
 import com.poolistas.lista4.Exercicio5;
 import com.poolistas.lista4.Exercicio6;
 import com.poolistas.lista4.Exercicio7;
+import com.poolistas.lista4.Exercicio8;
 
 
 @SpringBootApplication
@@ -18,7 +19,7 @@ public class ListasexerciciosApplication4 {
 	public static void main(String[] args) {
 		SpringApplication.run(ListasexerciciosApplication.class, args);
 
-		Exercicio7.resolucao();
+		Exercicio8.resolucao();
 	}
 
 }
